@@ -3,10 +3,10 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
-      sm: "640em",
-      md: "768em",
-      lg: "1024em",
-      xl: "1280em",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1440px",
     },
     fontWeight: {
       100: 100,
