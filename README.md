@@ -5,16 +5,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Todo
 
 1. ~~tailwind set up~~
-2. container
+2. ~~container~~
 3. ~~logo~~
-4. colors
+4. ~~colors~~
 5. ~~font~~
-6. variables
-7. font-weight
-8. spacing
-9. images -> consider the performance
-10. body
-11. ~~reset~~
-12. utilities class
-13. mobile-first
-    1. header
+6. ~~font-weight~~
+7. images -> consider the performance
+8. ~~body~~
+9. ~~reset~~
+10. mobile-first
+    1. ~~UI~~
+    2. menu button => make it urself -> animation in tailwind
+    3. slide:
+       1. component
+       2. second navBar
+       3. dark shadow
