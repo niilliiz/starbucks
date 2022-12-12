@@ -11,3 +11,8 @@ body {
   font-size: 16px;
   color: "#212529";
 }
+
+.button {
+  border-radius: 16px;
+  padding: 5px 12px;
+}

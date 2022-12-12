@@ -33,10 +33,10 @@ const Header = () => {
             <MapPin weight="fill" width="40" height="24" />
             <span>Find a store</span>
           </a>
-          <Button className="rounded-2xl border border-gray-900 px-3  py-1 hover:bg-gray-200">
+          <Button className="button border border-gray-900 hover:bg-gray-200">
             Sign in
           </Button>
-          <Button className="rounded-2xl border border-gray-900 px-3 bg-gray-900 text-gray-100  py-1 hover:bg-gray-800 hover:border-gray-800 ">
+          <Button className="button  bg-gray-900 text-gray-100 hover:bg-gray-800 ">
             Join now
           </Button>
         </div>
