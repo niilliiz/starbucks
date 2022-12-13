@@ -6,7 +6,7 @@ import Button from "../../components/button/button";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header className="relative flex justify-between items-center px-4 py-2 space-x-4 md:justify-stretch">
+    <header className="relative flex justify-between items-center px-4 py-2 space-x-4 border-b border-border md:justify-stretch">
       <Logo width="40" />
 
       {/*less than medium size screen  */}
