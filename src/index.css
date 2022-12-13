@@ -12,7 +12,54 @@ body {
   color: "#212529";
 }
 
+/* -------------Utilities------------ */
 .button {
   border-radius: 16px;
   padding: 5px 12px;
+}
+
+/* -------------Menu Button------------ */
+.hamburger {
+  cursor: pointer;
+  width: 20px;
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 16px;
+  transition: all 0.25s;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+  cursor: pointer;
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  background: #212529;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+
+.hamburger-top {
+  transform: translateY(-7px);
+}
+
+.hamburger-bottom {
+  transform: translateY(7px);
+}
+
+.open .hamburger-top {
+  background: #868e96;
+  transform: rotate(-45deg) translateY(0px) translate(0px);
+}
+
+.open .hamburger-bottom {
+  background: #868e96;
+
+  transform: rotate(45deg) translateY(0px) translate(0px);
+}
+
+.open .hamburger-middle {
+  display: none;
 }

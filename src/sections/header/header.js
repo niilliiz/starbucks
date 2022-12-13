@@ -1,16 +1,22 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
-import { List, MapPin } from "phosphor-react";
+import React, { useState } from "react";
+import { MapPin } from "phosphor-react";
 import Logo from "../../components/logo/logo";
 import Button from "../../components/button/button";
 const Header = () => {
+  const [open, setOpen] = useState(false);
   return (
-    <header className="flex justify-between items-center px-4 py-2 space-x-4 md:justify-stretch">
+    <header className="relative flex justify-between items-center px-4 py-2 space-x-4 md:justify-stretch">
       <Logo width="40" />
 
       {/*less than medium size screen  */}
-      <button className="block md:hidden">
-        <List color="rgba(0,0,0,.58)" className="" width="32" height="40" />
+      <button
+        className={`hamburger flex md:hidden ${open ? "open" : ""}`}
+        onClick={() => setOpen(!open)}
+      >
+        <div className="hamburger-top"></div>
+        <div className="hamburger-middle"></div>
+        <div className="hamburger-bottom"></div>
       </button>
 
       {/*more than medium size screen  */}
@@ -30,7 +36,7 @@ const Header = () => {
         </nav>
         <div className="flex items-center space-x-5 text-14 font-500">
           <a href="#" className="flex items-center ">
-            <MapPin weight="fill" width="40" height="24" />
+            <MapPin weight="fill" width="40" height="26" />
             <span>Find a store</span>
           </a>
           <Button className="button border border-gray-900 hover:bg-gray-200">
