@@ -21,7 +21,8 @@ body {
 /* -------------Menu Button------------ */
 .hamburger {
   cursor: pointer;
-  width: 20px;
+  width: 30px;
+  height: 18px;
   position: absolute;
   transform: translateY(-50%);
   top: 50%;
@@ -36,28 +37,28 @@ body {
   position: absolute;
   width: 22px;
   height: 2px;
-  background: #212529;
+  background: #495057;
   transform: rotate(0);
   transition: all 0.5s;
 }
 
-.hamburger-top {
-  transform: translateY(-7px);
+.hamburger-middle {
+  transform: translateY(6px);
 }
 
 .hamburger-bottom {
-  transform: translateY(7px);
+  transform: translateY(12px);
 }
 
 .open .hamburger-top {
   background: #868e96;
-  transform: rotate(-45deg) translateY(0px) translate(0px);
+  transform: rotate(-45deg) translateY(12px);
 }
 
 .open .hamburger-bottom {
   background: #868e96;
 
-  transform: rotate(45deg) translateY(0px) translate(0px);
+  transform: rotate(45deg) translateX(12px);
 }
 
 .open .hamburger-middle {
