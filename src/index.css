@@ -9,7 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: "#212529";
+  color: #212529;
 }
 
 /* -------------Utilities------------ */
@@ -21,7 +21,7 @@ body {
 /* -------------Menu Button------------ */
 .hamburger {
   cursor: pointer;
-  width: 30px;
+  width: 22px;
   height: 18px;
   position: absolute;
   transform: translateY(-50%);
