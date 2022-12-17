@@ -3,10 +3,11 @@ import React, { useState } from "react";
 import { MapPin } from "phosphor-react";
 import Logo from "../../components/logo/logo";
 import Button from "../../components/button/button";
+import NavSlider from "./component/nav-slider/nav-slider";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header className="relative flex justify-between items-center px-4 py-2 space-x-4 border-b border-border md:justify-stretch">
+    <header className="relative h-20 flex justify-between items-center px-4 py-2  shadow-bottom border-border md:border-b md:justify-stretch md:shadow-none  md:space-x-4">
       <Logo width="40" />
 
       {/*less than medium size screen  */}
@@ -42,11 +43,12 @@ const Header = () => {
           <Button className="button border border-gray-900 hover:bg-gray-200">
             Sign in
           </Button>
-          <Button className="button  bg-gray-900 text-gray-100 hover:bg-gray-800 ">
+          <Button className="button bg-gray-900 text-gray-100 hover:bg-gray-800 ">
             Join now
           </Button>
         </div>
       </div>
+      <NavSlider isOpen={open} />
     </header>
   );
 };

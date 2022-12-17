@@ -7,7 +7,7 @@ const Logo = ({ width = "32", height = "50", onClick = () => null }) => {
         width={width}
         height={height}
         xmlns="http://www.w3.org/2000/svg"
-        class="block"
+        className="block"
         viewBox="0 0 62 62"
       >
         <circle cx="31" cy="31" r="30" fill="#fff" />

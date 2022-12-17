@@ -15,7 +15,11 @@ body {
 /* -------------Utilities------------ */
 .button {
   border-radius: 16px;
-  padding: 5px 12px;
+  padding: 5px 16px;
+}
+
+.button--small {
+  padding: 3px 16px;
 }
 
 /* -------------Menu Button------------ */

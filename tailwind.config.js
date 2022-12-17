@@ -3,6 +3,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     screens: {
+      xsm: "480px",
       sm: "640px",
       md: "768px",
       lg: "1024px",
@@ -27,13 +28,15 @@ module.exports = {
       900: 900,
     },
     colors: {
+      backdrop: "rgba(0,0,0,0.28)",
       gray: {
         900: "#212529",
         800: "#343a40",
         700: "#495057",
         600: "#868e96",
+        300: "#dee2e6",
         200: "#f1f3f5",
-        100: "#f8f9fa",
+        100: "#fff",
       },
       green: {
         900: "#1e3932",
@@ -49,7 +52,20 @@ module.exports = {
       },
       border: "rgba(0,0,0,0.1)",
     },
-    extend: {},
+    boxShadow: {
+      bottom: "0 3px 5px rgba(0,0,0,0.1)",
+      none: "none",
+    },
+    extend: {
+      inset: {
+        "81px": "81px",
+        "800px": "800px",
+        "100%": "100%",
+      },
+      flexGrow: {
+        2: 2,
+      },
+    },
   },
   plugins: [],
 };

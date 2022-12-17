@@ -15,8 +15,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 9. ~~reset~~
 10. mobile-first
     1. ~~UI~~
-    2. menu button => make it urself -> animation in tailwind
-    3. slide:
-       1. component
-       2. second navBar
-       3. dark shadow
+    2. ~~menu button => make it urself -> animation in tailwind~~
+11. ~~slide:~~
+    1. ~~component~~
+    2. ~~second navBar~~
+    3. ~~dark shadow~~
