@@ -18,6 +18,7 @@ module.exports = {
       24: "1.5rem",
       28: "1.75rem",
       32: "2rem",
+      54: "3.375rem",
     },
     fontWeight: {
       100: 100,
@@ -64,6 +65,19 @@ module.exports = {
       },
       flexGrow: {
         2: 2,
+      },
+      spacing: {
+        450: "28.125rem",
+        600: "37.5rem",
+        700: "43.75rem",
+      },
+      backgroundImage: {
+        "home-sec1": "url('/src/asset/image/home/sec1.avif')",
+        "home-sec2": "url('/src/asset/image/home/sec2.avif')",
+        "home-sec3": "url('/src/asset/image/home/sec3.avif')",
+        "home-sec4": "url('/src/asset/image/home/sec4.avif')",
+        "home-sec5": "url('/src/asset/image/home/sec5.avif')",
+        "home-sec6": "url('/src/asset/image/home/sec6.avif')",
       },
     },
   },

@@ -4,19 +4,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Todo
 
-1. ~~tailwind set up~~
-2. ~~container~~
-3. ~~logo~~
-4. ~~colors~~
-5. ~~font~~
-6. ~~font-weight~~
-7. images -> consider the performance
-8. ~~body~~
-9. ~~reset~~
-10. mobile-first
-    1. ~~UI~~
-    2. ~~menu button => make it urself -> animation in tailwind~~
-11. ~~slide:~~
-    1. ~~component~~
-    2. ~~second navBar~~
-    3. ~~dark shadow~~
+home page:
+
+1. picture:
+   1. specific picture for each screen size ->
+      1. scrset
+      2. mediaquery
+      3. lazy loading
+      4. quality of pictures
+      5. define width and height for them
+      6. use background image
+
+footer:
+
+1. responsive

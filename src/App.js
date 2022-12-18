@@ -1,11 +1,14 @@
 import "./index.css";
 import Layout from "./layout/layout";
+import Home from "./pages/home/home";
 
 function App() {
   return (
-    <>
-      <Layout />
-    </>
+    <div>
+      <Layout>
+        <Home />
+      </Layout>
+    </div>
   );
 }
 
