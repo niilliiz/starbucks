@@ -51,7 +51,6 @@ module.exports = {
       gold: {
         900: "#cba258",
       },
-      border: "rgba(0,0,0,0.1)",
     },
     boxShadow: {
       bottom: "0 3px 5px rgba(0,0,0,0.1)",
