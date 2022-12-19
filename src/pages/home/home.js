@@ -3,7 +3,7 @@ import HomeCard from "./components/home-card/home-card";
 
 const Home = () => {
   return (
-    <main className="mt-12 flex flex-col space-y-12">
+    <main className="my-12 flex flex-col space-y-12">
       <HomeCard
         title="Make your Rewards merrier"
         description="Starbucks® Rewards + Delta SkyMiles® have come together! Link your accounts to get 1 mile per $1* spent at Starbucks."
