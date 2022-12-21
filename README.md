@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 home page:
 
 1. picture:
+
    1. specific picture for each screen size ->
       1. scrset
       2. mediaquery
@@ -15,6 +16,6 @@ home page:
       5. define width and height for them
       6. use background image
 
-footer:
-
-1. responsive
+2. header:
+   1. active link style
+3. footer
