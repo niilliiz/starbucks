@@ -5,10 +5,12 @@ import ShortScreenFooter from "./footer-short-screen";
 
 const Footer = () => {
   return (
-    <footer className="border-2 border-gray-300 py-18 px-4 space-y-8">
+    <footer className="flex flex-col border-t-2 border-gray-300 px-4 pt-8">
       <LargeScreenFooter links={LINKS} />
       <ShortScreenFooter links={LINKS} />
-      <div>bottom footer</div>
+      <p className="self-center py-4 text-14 text-gray-600">
+        © 2022 Starbucks Coffee.
+      </p>
     </footer>
   );
 };

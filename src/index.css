@@ -4,6 +4,7 @@
 
 @import url("./abstract/reset.css");
 @import url("./abstract/font.css");
+@import url("./styles/footer-accordion.css");
 
 body {
   font-family: "Roboto", sans-serif;

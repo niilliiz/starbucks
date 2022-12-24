@@ -1,0 +1,36 @@
+.accordion_list_container {
+  overflow: hidden;
+  transition: 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-property: height, padding;
+  position: relative;
+}
+
+.accordion_list_container--closed {
+  height: 0;
+  padding: 0;
+}
+
+.accordion_list_container--opened {
+  height: auto;
+  padding: 1rem 0 0 0;
+}
+
+.accordion_list_expander {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* --------------CARET ICON------- */
+.caret_icon {
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.caret_icon--up {
+  transform: rotate(0deg);
+}
+
+.caret_icon--up {
+  transform: rotate(180deg);
+}
