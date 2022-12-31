@@ -1,0 +1,20 @@
+.carousel_container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.carousel {
+  display: flex;
+  flex-flow: nowrap;
+  gap: 20px;
+  /* overflow: hidden; */
+  /* margin: 0 -15px; */
+}
+
+.gift-card {
+  width: 500px;
+  height: 80px;
+  background-image: var(--gift-card);
+  /* background-image: url(../asset/image/giftCard/bd-1.avif); */
+}

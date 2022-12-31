@@ -18,4 +18,5 @@ home page:
 
 2. header:
    1. active link style
-3. footer
+3. gift card page
+   1. for practicing propType: button direction, define all options for direction prop

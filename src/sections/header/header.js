@@ -7,7 +7,7 @@ import NavSlider from "./component/nav-slider/nav-slider";
 const Header = () => {
   const [open, setOpen] = useState(false);
   return (
-    <header className="relative h-20 flex justify-between items-center px-4 py-2  shadow-bottom border-gray-300 md:border-b md:justify-stretch md:shadow-none md:space-x-4">
+    <header className="relative h-20 flex justify-between items-center px-8 py-2  shadow-bottom border-gray-300 md:border-b md:justify-stretch md:shadow-none md:space-x-4">
       <Logo width="40" />
 
       {/*less than medium size screen  */}

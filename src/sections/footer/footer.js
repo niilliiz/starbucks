@@ -5,7 +5,7 @@ import ShortScreenFooter from "./footer-short-screen";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col border-t-2 border-gray-300 px-4 pt-8">
+    <footer className="flex flex-col border-t-2 border-gray-300 px-6 pt-8">
       <LargeScreenFooter links={LINKS} />
       <ShortScreenFooter links={LINKS} />
       <p className="self-center py-4 text-14 text-gray-600">
