@@ -83,35 +83,6 @@ module.exports = {
         "home-sec4": "url('/src/asset/image/home/sec4.avif')",
         "home-sec5": "url('/src/asset/image/home/sec5.avif')",
         "home-sec6": "url('/src/asset/image/home/sec6.avif')",
-        "giftCard-bd-1": "url('/src/asset/image/giftCard/bd1.avif')",
-        "giftCard-bd-2": "url('/src/asset/image/giftCard/bd-2.avif')",
-        "giftCard-bd-3": "url('/src/asset/image/giftCard/bd-3.avif')",
-        "giftCard-bd-4": "url('/src/asset/image/giftCard/bd-4.avif')",
-        "giftCard-bd-5": "url('/src/asset/image/giftCard/bd-5.avif')",
-        "giftCard-christmas-1":
-          "url('/src/asset/image/giftCard/christmas-1.avif')",
-        "giftCard-christmas-2":
-          "url('/src/asset/image/giftCard/christmas-2.avif')",
-        "giftCard-christmas-3":
-          "url('/src/asset/image/giftCard/christmas-3.avif')",
-        "giftCard-christmas-4":
-          "url('/src/asset/image/giftCard/christmas-4.avif')",
-        "giftCard-christmas-5":
-          "url('/src/asset/image/giftCard/christmas-5.avif')",
-        "giftCard-holiday-1": "url('/src/asset/image/giftCard/holiday-1.avif')",
-        "giftCard-holiday-2": "url('/src/asset/image/giftCard/holiday-2.avif')",
-        "giftCard-holiday-3": "url('/src/asset/image/giftCard/holiday-3.avif')",
-        "giftCard-holiday-4": "url('/src/asset/image/giftCard/holiday-4.avif')",
-        "giftCard-holiday-5": "url('/src/asset/image/giftCard/holiday-5.avif')",
-        "giftCard-tu-1": "url('/src/asset/image/giftCard/tu-1.avif')",
-        "giftCard-tu-2": "url('/src/asset/image/giftCard/tu-2.avif')",
-        "giftCard-tu-3": "url('/src/asset/image/giftCard/tu-3.avif')",
-        "giftCard-tu-4": "url('/src/asset/image/giftCard/tu-4.avif')",
-        "giftCard-tu-5": "url('/src/asset/image/giftCard/tu-5.avif')",
-        "giftCard-winter-1": "url('/src/asset/image/giftCard/winter-1.avif')",
-        "giftCard-winter-2": "url('/src/asset/image/giftCard/winter-2.avif')",
-        "giftCard-winter-3": "url('/src/asset/image/giftCard/winter-3.avif')",
-        "giftCard-winter-4": "url('/src/asset/image/giftCard/winter-4.avif')",
       },
       transitionProperty: {
         height: "height",

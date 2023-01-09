@@ -1,14 +1,16 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from "react";
 import GiftCard from "../gift-card/gift-card";
-const Carousel = ({ gifts }) => {
-  return (
-    <div className="flex space-x-12 items-center border-gray-800 border-2 grow ">
-      {gifts.map((gift) => {
-        const bgImg = `bg-giftCard-${gift.id}`;
 
-        return <GiftCard key={gift.id} bgImg={gift.url} link={gift.link} />;
-      })}
+const Carousel = React.forwardRef(({ gifts }, ref) => {
+  return (
+    <div className="carousel_container overflow-x-auto sm:overflow-hidden">
+      <div ref={ref} className="carousel flex items-center space-x-8">
+        {gifts.map((gift) => (
+          <GiftCard key={gift.id} bgImg={gift.url} link={gift.link} />
+        ))}
+      </div>
     </div>
   );
-};
+});
 export default Carousel;

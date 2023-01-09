@@ -1,12 +1,11 @@
 import React from "react";
 const GiftCard = ({ bgImg, link }) => {
-  console.log(bgImg);
   return (
-    <a href={link}>
+    <a href={link} className="gift-card" data-status="inActive">
       <div
-        className={`gift-card ${bgImg} w-32 h-24 bg-cover bg-center bg-no-repeat`}
+        className={`card-img ${bgImg} `}
         style={{
-          "--gift-card": `url(${bgImg})`,
+          "--gift-bgc": `url(${bgImg})`,
         }}
       />
     </a>

@@ -1,20 +1,37 @@
 .carousel_container {
-  display: flex;
-  align-items: center;
-  gap: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 222px;
+  z-index: 1;
 }
 
 .carousel {
-  display: flex;
-  flex-flow: nowrap;
-  gap: 20px;
-  /* overflow: hidden; */
-  /* margin: 0 -15px; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 1px solid green;
+  transition: all 0.3s ease-in-out;
 }
 
-.gift-card {
-  width: 500px;
-  height: 80px;
-  background-image: var(--gift-card);
-  /* background-image: url(../asset/image/giftCard/bd-1.avif); */
+.card-img {
+  border-radius: 15px;
+  width: 320px;
+  height: 210px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: var(--gift-bgc);
+}
+
+.gift-card[data-status="inActive"] {
+  opacity: 0.5;
+}
+
+.gift-card[data-status="active"] {
+  opacity: 0.5;
 }
