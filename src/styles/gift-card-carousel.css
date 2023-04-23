@@ -5,33 +5,57 @@
   bottom: 0;
   right: 0;
   height: 222px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   z-index: 1;
+  overflow: hidden;
 }
 
 .carousel {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  border: 1px solid green;
-  transition: all 0.3s ease-in-out;
+  --items-per-screen: 4;
+  --slider-index: 0;
+  flex-grow: 1;
+  display: flex;
+  margin: 0 0.25rem;
+  transform: translateX(calc(var(--slider-index) * -100%));
+  transition: transform 0.3s ease-in-out;
+}
+
+.gift-card {
+  flex: 0 0 calc(100% / var(--items-per-screen));
+  max-width: calc(100% / var(--items-per-screen));
+  padding: 0.25rem;
+  border-radius: 1rem;
 }
 
 .card-img {
+  display: block;
   border-radius: 15px;
-  width: 320px;
-  height: 210px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-image: var(--gift-bgc);
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  object-position: center;
 }
 
-.gift-card[data-status="inActive"] {
-  opacity: 0.5;
+/* 1200px */
+@media (max-width: 75em) {
+  .carousel {
+    --items-per-screen: 3;
+  }
 }
 
-.gift-card[data-status="active"] {
-  opacity: 0.5;
+/* 768px */
+@media (max-width: 48em) {
+  .carousel {
+    --items-per-screen: 2;
+  }
+}
+
+/* 640px */
+@media (max-width: 40em) {
+  .carousel_container {
+    overflow: auto;
+  }
 }
