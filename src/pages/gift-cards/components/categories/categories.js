@@ -49,43 +49,11 @@ const Categories = ({ category }) => {
         <button className="text-green-700 font-500">See all</button>
       </div>
       <div className="relative w-full h-56 overflow-hidden">
-        <Button
-          ref={leftButtonRef}
-          direction="left"
-          left="left-6"
-          onClick={(e) => handleClick(e, "left")}
-        />
+        <Button direction="left" onClick={(e) => handleClick(e, "left")} />
         <Carousel gifts={category.gifts} ref={carouselRef} />
-        <Button
-          ref={rightButtonRef}
-          direction="right"
-          right="right-6"
-          onClick={(e) => handleClick(e, "right")}
-        />
+        <Button direction="right" onClick={(e) => handleClick(e, "right")} />
       </div>
     </section>
   );
 };
 export default Categories;
-
-/**console.log(window.innerWidth);
-    console.dir(carouselRef.current.children[0]);
-
-    console.dir(carouselRef.current.children[0].offsetLeft);
-    console.dir(carouselRef.current.children[1].offsetLeft);
-    console.dir(carouselRef.current.children[2].offsetLeft);
- * 
- *  const {
-      left: elementLeft,
-      top: elementTop,
-      right: elementRight,
-      bottom: elementBottom,
-    } = element.getBoundingClientRect();
-
-    const {
-      left: carouselContainerLeft,
-      top: carouselContainerTop,
-      right: carouselContainerRight,
-      bottom: carouselContainerBottom,
-    } = carouselContainer.current.children[1].getBoundingClientRect();
- */
