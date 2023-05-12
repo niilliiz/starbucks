@@ -1,11 +1,11 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import Button from "../button/button";
 import Carousel from "../carousel/carousel";
 
 const Categories = ({ category }) => {
+  const [visible, setVisible] = useState(true);
+
   const carouselRef = useRef(null);
-  const leftButtonRef = useRef(null);
-  const rightButtonRef = useRef(null);
 
   const handleClick = (e, dir) => {
     const sliderIndex = parseInt(
@@ -29,6 +29,8 @@ const Categories = ({ category }) => {
         );
       }
     }
+
+    // joda kon ghesmate define unut rom unit mitune state bashe, baraye neshun dadane button ha bayad ye jur dg benevisi
 
     if (dir === "right") {
       if (sliderIndex + 1 >= unit) {
